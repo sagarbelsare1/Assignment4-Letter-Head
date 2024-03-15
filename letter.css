@@ -1,0 +1,323 @@
+body .letter-wrapper {
+  border: 0.001pt solid ;
+  margin: auto;
+  overflow: hidden;
+  background-color: white;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+}
+.letter-wrapper .letter-background .topbox1{
+	width: 210mm;
+	height: 6mm;
+	background-color: #140F2D;
+}
+.letter-wrapper .letter-background .topbox2{
+	width: 50mm;
+	height: 6mm;
+	background-color: #140F2D;
+	transform: skewX(-30deg);
+	position:absolute;
+	left:-5mm;
+}
+.letter-wrapper .letter-background .topbox3{
+	width: 25mm;
+	height: 5mm;
+	background-color: #7b2341;
+	transform: skewX(-30deg);
+	position:absolute;
+	left:49mm;
+	top:7mm;
+}
+.letter-wrapper .letter-background .topbox4{
+	width: 25mm;
+	height: 5mm;
+	background-color: #a33257;
+	transform: skewX(-30deg);
+	position:absolute;
+	left:73mm;
+	top:7mm;
+}
+.letter-wrapper .letter-background .topbox5{
+	width: 25mm;
+	height: 5mm;
+	background-color: #c3406c;
+	transform: skewX(-30deg);
+	position:absolute;
+	left:97mm;
+	top:7mm;
+}
+.letter-wrapper .letter-background .topbox6{
+	width:83mm;
+	height: 1mm;
+	background-color: #c3406c;
+	position:absolute;
+	right:2mm;
+	top:9mm;
+}
+.letter-wrapper .letter-background .bottombox1{
+	width: 205mm;
+	height: 6mm;
+	background-color: #292137;
+	transform: skewX(30deg);
+	position: absolute;
+	bottom: 0mm;
+	left: -5mm;
+}
+.letter-wrapper .letter-background .bottombox2{
+	width: 45mm;
+	height: 12mm;
+	background-color: #651e36;
+	transform: skewX(-30deg);
+	position:absolute;
+	left:3mm;
+	bottom:-1mm;
+}
+.letter-wrapper .letter-background .bottombox3{
+	width: 45mm;
+	height: 12mm;
+	background-color: #8b0e37;
+	transform: skewX(-30deg);
+	position:absolute;
+	left:47mm;
+	bottom:-1mm;
+}
+.letter-wrapper .letter-background .bottombox4{
+	width: 45mm;
+	height: 12mm;
+	background-color: #c3406c;
+	transform: skewX(-30deg);
+	position:absolute;
+	left:91mm;
+	bottom:-1mm;
+}
+.letter-wrapper .letter-background .bottombox5{
+	width:67mm;
+	height: 1.2mm;
+	background-color: #c3406c;
+	position:absolute;
+	right:2mm;
+	bottom:8mm;
+}
+.letter-wrapper .letter-background .rightbox1{
+	width:5mm;
+	height: 215mm;
+	background-color: #cd165c17;
+	transform:skewY(30deg);
+	position:absolute;
+	right:0mm;
+	bottom:15mm;
+}
+.letter-wrapper .letter-background .rightbox2{
+	width:5mm;
+	height: 240mm;
+	background-color: #cd165c17;
+	transform:skewY(30deg);
+	position:absolute;
+	right:5.1mm;
+	bottom:35mm;
+}
+.letter-wrapper .letter-background .rightbox3{
+	width:6mm;
+	height: 40mm;
+	background-color: #cd165c17;
+	transform:skewY(30deg);
+	position:absolute;
+	right:0mm;
+	bottom:100mm;
+}
+body .letter-wrapper .letter-content header {
+  position: absolute;
+  left: 0mm;
+  top: 0mm;
+  width: 100%;
+  height: 40mm;
+  border-bottom: 0mm solid;
+}
+body .letter-wrapper .letter-content header .letter-org-logo {
+  font-weight: bold;
+  position: absolute;
+  left: 10mm;
+  top: 10mm;
+  width: 50mm;
+  height: 50mm;
+  margin: 5mm;
+}
+body .letter-wrapper .letter-content header .letter-org-logo img {
+  width: 50%;
+  height: 50%;
+}
+body .letter-wrapper .letter-content header .letter-org-name {
+  font-weight: bold;
+  color:red;
+  position: absolute;
+  left: 40mm;
+  top: 20mm;
+  width: 100%;
+  height: auto;
+  font-size: 20pt;
+}
+body .letter-wrapper .letter-content header .letter-org-details {
+  font-weight: bold;
+  color:red;
+  position: absolute;
+  left: 40mm;
+  top: 28mm;
+  width: 100%;
+  height: auto;
+  font-size: 20pt;
+}
+body .letter-wrapper .letter-content header .letter-ref {
+  font-weight: bold;
+  position: absolute;
+  left: 15mm;
+  top: 45mm;
+  width: 50%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content header .letter-date {
+  font-weight: bold;
+  position: absolute;
+  left: 165mm;
+  top: 45mm;
+  width: 30%;
+  height: auto;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-body {
+  position: absolute;
+  left: 0mm;
+  top: 45mm;
+  width: 100%;
+  height: 200mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-to {
+  position: absolute;
+  left: 15mm;
+  top: 15mm;
+  width: 70mm;
+  height: 35mm;
+  font-weight: bold;
+  font-size: 14pt;
+  margin: 0mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-subject {
+  position: absolute;
+  left: 0mm;
+  top: 50mm;
+  width: calc(100% - 45mm);
+  height: 20mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+  font-weight: bold;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-salutation {
+  position: absolute;
+  left: 0mm;
+  top: 60mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  font-weight: bold;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message {
+  position: absolute;
+  left: 0mm;
+  top: 65mm;
+  width: auto;
+  height: 115mm;
+  margin-left: 15mm;
+  margin-right: 15mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-message p {
+  font-size: medium;
+  overflow: auto;
+  text-align: justify;
+  margin-top: 5mm;
+  gap: 5mm;
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign {
+  position: absolute;
+  left: 0mm;
+  top: 160mm;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 12pt;
+  font-weight: bold;
+  
+}
+body .letter-wrapper .letter-content .letter-body .letter-body-sign p {
+  margin: 1mm;
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+body .letter-wrapper .letter-content .letter-footer {
+  position: absolute;
+  left: 0mm;
+  bottom: 20mm;
+  width: 100%;
+  height: 35mm;
+}
+body .letter-wrapper .letter-content .letter-footer .fa {
+  width: 7mm;
+  height: 7mm;
+  border-radius: 50%;
+  padding: 1mm;
+  margin-right: 3mm;
+  background-color: black;
+  color: red;
+  text-align: center;
+  font-size: 12pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-website {
+  bottom: 20mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 20pt;
+  font-weight: bold;
+  text-shadow: 0.2mm 0.2mm white;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-phone {
+  position: absolute;
+  left: 0mm;
+  top: 20mm;
+  width: 40%;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-email {
+  position: absolute;
+  left: 100mm;
+  top: 20mm;
+  width: 87mm;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
+body .letter-wrapper .letter-content .letter-footer .letter-org-address {
+  position: absolute;
+  left: 0mm;
+  top: 31mm;
+  width: 100%;
+  height: auto;
+  margin-left: 15mm;
+  margin-right: 15mm;
+  font-size: 13pt;
+}
