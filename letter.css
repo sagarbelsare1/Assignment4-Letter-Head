@@ -14,56 +14,56 @@ body{
 }
 .letter-wrapper .letter-background .topbox1{
 	width: 210mm;
-	height: 6mm;
-	background-color: #292137;
+	height: 8mm;
+	background-color: #140F2D;
 }
 .letter-wrapper .letter-background .topbox2{
 	width: 50mm;
-	height: 6mm;
-	background-color: #292137;
+	height: 8mm;
+	background-color: #140F2D;
 	transform: skewX(-30deg);
 	position:absolute;
 	left:-5mm;
 }
 .letter-wrapper .letter-background .topbox3{
 	width: 25mm;
-	height: 5mm;
+	height: 7mm;
 	background-color: #7b2341;
 	transform: skewX(-30deg);
 	position:absolute;
 	left:49mm;
-	top:7mm;
+	top:9mm;
 }
 .letter-wrapper .letter-background .topbox4{
 	width: 25mm;
-	height: 5mm;
+	height: 7mm;
 	background-color: #a33257;
 	transform: skewX(-30deg);
 	position:absolute;
 	left:73mm;
-	top:7mm;
+	top:9mm;
 }
 .letter-wrapper .letter-background .topbox5{
 	width: 25mm;
-	height: 5mm;
+	height: 7mm;
 	background-color: #c3406c;
 	transform: skewX(-30deg);
 	position:absolute;
 	left:97mm;
-	top:7mm;
+	top:9mm;
 }
 .letter-wrapper .letter-background .topbox6{
 	width:83mm;
-	height: 1mm;
+	height: 1.5mm;
 	background-color: #c3406c;
 	position:absolute;
 	right:2mm;
-	top:9mm;
+	top:11mm;
 }
 .letter-wrapper .letter-background .bottombox1{
 	width: 205mm;
-	height: 6mm;
-	background-color: #292137;
+	height: 8mm;
+	background-color: #140F2D;
 	transform: skewX(30deg);
 	position: absolute;
 	bottom: 0mm;
@@ -71,17 +71,17 @@ body{
 }
 .letter-wrapper .letter-background .bottombox2{
 	width: 45mm;
-	height: 12mm;
-	background-color: #651e36;
+	height: 14mm;
+	background-color: #8F1E42;
 	transform: skewX(-30deg);
 	position:absolute;
-	left:3mm;
+	left:3.5mm;
 	bottom:-1mm;
 }
 .letter-wrapper .letter-background .bottombox3{
 	width: 45mm;
-	height: 12mm;
-	background-color: #8b0e37;
+	height: 14mm;
+	background-color: #AA0D4C;
 	transform: skewX(-30deg);
 	position:absolute;
 	left:47mm;
@@ -89,25 +89,25 @@ body{
 }
 .letter-wrapper .letter-background .bottombox4{
 	width: 45mm;
-	height: 12mm;
-	background-color: #c3406c;
+	height: 14mm;
+	background-color: #CE2F62;
 	transform: skewX(-30deg);
 	position:absolute;
 	left:91mm;
 	bottom:-1mm;
 }
 .letter-wrapper .letter-background .bottombox5{
-	width:67mm;
-	height: 1.2mm;
+	width:65mm;
+	height: 1.8mm;
 	background-color: #c3406c;
 	position:absolute;
-	right:2mm;
-	bottom:8mm;
+	right:3mm;
+	bottom:10mm;
 }
 .letter-wrapper .letter-background .rightbox1{
 	width:5mm;
 	height: 215mm;
-	background-color: #cd165c17;
+	background-color: #ECDFE3;
 	transform:skewY(30deg);
 	position:absolute;
 	right:0mm;
@@ -116,16 +116,16 @@ body{
 .letter-wrapper .letter-background .rightbox2{
 	width:5mm;
 	height: 240mm;
-	background-color: #cd165c17;
+	background-color: #ECDFE3;
 	transform:skewY(30deg);
 	position:absolute;
-	right:5.1mm;
+	right:5.0mm;
 	bottom:35mm;
 }
 .letter-wrapper .letter-background .rightbox3{
 	width:6mm;
 	height: 40mm;
-	background-color: #cd165c17;
+	background-color: #E5CDD5;
 	transform:skewY(30deg);
 	position:absolute;
 	right:0mm;
