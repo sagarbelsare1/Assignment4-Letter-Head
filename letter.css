@@ -1,5 +1,8 @@
-body .letter-wrapper {
-  border: 0.001pt solid ;
+body{
+  background-color: gray;
+}
+.letter-wrapper {
+  /* border: 0.001pt solid ; */
   margin: auto;
   overflow: hidden;
   background-color: white;
@@ -12,12 +15,12 @@ body .letter-wrapper {
 .letter-wrapper .letter-background .topbox1{
 	width: 210mm;
 	height: 6mm;
-	background-color: #140F2D;
+	background-color: #292137;
 }
 .letter-wrapper .letter-background .topbox2{
 	width: 50mm;
 	height: 6mm;
-	background-color: #140F2D;
+	background-color: #292137;
 	transform: skewX(-30deg);
 	position:absolute;
 	left:-5mm;
